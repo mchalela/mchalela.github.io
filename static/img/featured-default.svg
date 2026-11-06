@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="presentation">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#18222c"/><stop offset="0.7" stop-color="#1b2a35"/><stop offset="1" stop-color="#2f5726"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <g fill="#fbf8f0"><circle cx="120" cy="90" r="2"/><circle cx="300" cy="160" r="1.5"/><circle cx="520" cy="70" r="2.2"/><circle cx="760" cy="140" r="1.4"/><circle cx="980" cy="60" r="2"/><circle cx="1100" cy="210" r="1.6"/><circle cx="200" cy="300" r="1.4"/><circle cx="640" cy="260" r="1.8"/><circle cx="900" cy="330" r="1.3"/><circle cx="420" cy="380" r="1.5"/></g>
+  <g stroke="#f6df8e" stroke-width="2" stroke-opacity="0.75" fill="none"><polyline points="250,220 400,180 540,250 700,200 860,290"/><polyline points="540,250 580,360 720,400"/></g>
+  <g fill="#f6df8e"><circle cx="250" cy="220" r="6"/><circle cx="400" cy="180" r="5"/><circle cx="540" cy="250" r="7"/><circle cx="700" cy="200" r="5"/><circle cx="860" cy="290" r="6"/><circle cx="580" cy="360" r="4.5"/><circle cx="720" cy="400" r="5"/></g>
+  <g fill="#22401c"><ellipse cx="200" cy="820" rx="340" ry="150"/><ellipse cx="700" cy="840" rx="380" ry="140"/><ellipse cx="1150" cy="820" rx="300" ry="160"/></g>
+  <g fill="#4f8a3e"><path d="M600 800 C 610 700, 650 650, 730 630 C 680 680, 655 740, 645 800 Z"/><path d="M630 800 C 600 730, 540 700, 470 695 C 530 730, 580 765, 600 800 Z"/></g>
+</svg>

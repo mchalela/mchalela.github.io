@@ -1,0 +1,89 @@
+# Theme options. Reference: https://blowfish.page/docs/configuration/#theme-parameters
+
+colorScheme = "solarpunk"        # custom scheme in assets/css/schemes/solarpunk.css
+defaultAppearance = "light"
+autoSwitchAppearance = true
+
+enableA11y = false
+enableSearch = true
+enableCodeCopy = true
+enableStructuredBreadcrumbs = false
+
+mainSections = ["software"] # , "posts"]
+
+disableImageOptimization = false
+disableImageOptimizationMD = false
+disableTextInHeader = false
+
+defaultFeaturedImage = "/img/featured-default.svg"
+defaultSocialImage = "/img/featured-default.svg"
+hotlinkFeatureImage = false
+thumbnailAspectRatio = "1.5"
+
+highlightCurrentMenuArea = true
+smartTOC = true
+
+fingerprintAlgorithm = "sha512"
+
+[header]
+  layout = "fixed-fill-blur"
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "landing"
+  layoutSwitcher = false
+  homepageImage = "img/hero.svg"
+  showRecent = true
+  showRecentItems = 3
+  showMoreLink = true
+  showMoreLinkDest = "/software/"
+  cardView = true
+  cardViewScreenWidth = false
+
+[article]
+  showDate = true
+  showAuthor = true
+  showHero = true
+  heroStyle = "basic"
+  showBreadcrumbs = true
+  showEdit = false
+  showHeadingAnchors = true
+  showPagination = true
+  showReadingTime = true
+  showReadingProgress = true
+  showTableOfContents = true
+  showTaxonomies = true
+  showWordCount = false
+  showComments = true            # renders layouts/partials/comments.html (giscus) under every article
+  showZenMode = false
+
+[list]
+  showHero = false
+  showBreadcrumbs = false
+  showSummary = true
+  showTableOfContents = false
+  showCards = true
+  orderByWeight = false
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = false
+  constrainItemsWidth = false
+
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]
+
+[taxonomy]
+  showTermCount = true
+  showHero = false
+  cardView = true
+
+[term]
+  showHero = false
+  showBreadcrumbs = true
+  cardView = true

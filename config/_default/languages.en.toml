@@ -1,0 +1,26 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "Martin Chalela"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/logo.svg"
+  description = "Research Software Engineer with a PhD in Astronomy. Scientific Python: data pipelines, numerical code, testing and CI you can trust."
+  copyright = "Martin Chalela"
+
+[params.author]
+  name = "Martin Chalela"
+  email = "tinchochalela@gmail.com"
+  image = "img/profile.jpg"
+  headline = "Research Software Engineer · PhD in Astronomy"
+  bio = "I build and test scientific Python software: data pipelines, numerical code, CI and code review. Ten years of Python, nine refereed papers, and a 5.0 rating on every reviewed Upwork contract."
+  links = [
+    { github = "https://github.com/mchalela" },
+    { linkedin = "https://linkedin.com/in/martinchalela" },
+    { email = "mailto:tinchochalela@gmail.com" },
+  ]

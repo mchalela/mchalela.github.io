@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap");
+
+body {
+  font-family: "Source Sans 3", "Segoe UI", Roboto, system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, .landing-rise h1 {
+  font-family: "Fraunces", Georgia, "Times New Roman", serif;
+  font-variation-settings: "opsz" 144;
+  letter-spacing: -0.01em;
+}
+
+code, pre, kbd, samp {
+  font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+/* Section eyebrows and the landing caption use the sun gold rather than green. */
+.landing-rise.text-primary-600 { color: rgb(var(--color-secondary-600)); }
+.dark .landing-rise.text-primary-400 { color: rgb(var(--color-secondary-300)); }
+
+/* Header logo: the theme inlines the SVG at 5rem; keep ours smaller. Adjust here. */
+.logo svg { height: 3rem; width: 3rem; }
+
+/* Landing portrait (layouts/partials/home/landing.html). Variant A, in use: centred above the caption.
+   Variant B, right margin: swap the comment markers on the two blocks. */
+.landing-section { position: relative; }
+.landing-portrait {
+  display: block; margin: 0 auto 2rem;
+  width: 11rem; height: 11rem; border-radius: 9999px; object-fit: cover;
+  box-shadow: 0 0 0 4px rgb(var(--color-secondary-300) / 0.6);
+}
+/*
+.landing-portrait { display: none; }
+@media (min-width: 1100px) {
+  .landing-portrait {
+    display: block; position: absolute; right: 1rem; top: 7rem;
+    width: 11rem; height: 11rem; border-radius: 9999px; object-fit: cover;
+    box-shadow: 0 0 0 4px rgb(var(--color-secondary-300) / 0.6);
+  }
+}
+*/
