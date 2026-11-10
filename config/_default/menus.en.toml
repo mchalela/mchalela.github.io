@@ -14,10 +14,11 @@
   pageRef = "teaching"
   weight = 30
 
-[[main]]
-  name = "Blog"
-  pageRef = "posts"
-  weight = 40
+# Blog hidden until there is something to post. Uncomment here and in [[footer]] below.
+# [[main]]
+#   name = "Blog"
+#   pageRef = "posts"
+#   weight = 40
 
 [[main]]
   name = "Contact"
@@ -42,9 +43,19 @@
   weight = 10
 
 [[footer]]
-  name = "Blog"
-  pageRef = "posts"
-  weight = 20
+  name = "Publications"
+  pageRef = "publications"
+  weight = 15
+
+[[footer]]
+  name = "Teaching"
+  pageRef = "teaching"
+  weight = 18
+
+# [[footer]]
+#   name = "Blog"
+#   pageRef = "posts"
+#   weight = 20
 
 [[footer]]
   name = "Contact"
