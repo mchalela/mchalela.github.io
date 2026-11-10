@@ -16,7 +16,7 @@ disableImageOptimizationMD = false
 disableTextInHeader = false
 
 defaultFeaturedImage = "/img/featured-default.svg"
-defaultSocialImage = "/img/social-card.png"
+defaultSocialImage = "img/social-card.png"
 hotlinkFeatureImage = false
 thumbnailAspectRatio = "1.5"
 
