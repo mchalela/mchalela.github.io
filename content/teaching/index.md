@@ -3,6 +3,8 @@ title: "Teaching"
 description: "Courses taught and talks given."
 showComments: false
 showTableOfContents: true
+showDate: false
+showReadingTime: false
 ---
 
 ## Courses
@@ -10,6 +12,8 @@ showTableOfContents: true
 ### Software Design for Scientific Computing
 
 Professor. Postgraduate course, 60 hours. FAMAF, Universidad Nacional de Córdoba, Argentina. August 2020 to December 2021.
+
+**Materials:** [course repository](https://github.com/leliel12/diseno_sci_sfw), with one notebook per lesson, and the [2021 edition](https://github.com/leliel12/diseno_sci_sfw/tree/2021) with a recorded video for each class (in Spanish).
 
 1. High-level programming languages: Python.
 2. Software quality assurance.
