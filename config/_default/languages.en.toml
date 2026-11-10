@@ -2,7 +2,7 @@ disabled = false
 locale = "en"
 label = "English"
 weight = 1
-title = "Martin Chalela"
+title = "Martin Chalela, PhD"
 
 [params]
   displayName = "EN"
@@ -22,5 +22,6 @@ title = "Martin Chalela"
   links = [
     { github = "https://github.com/mchalela" },
     { linkedin = "https://linkedin.com/in/martinchalela" },
-    { email = "mailto:tinchochalela@gmail.com" },
+    { upwork = "https://www.upwork.com/freelancers/mchalela" },
+    { orcid = "https://orcid.org/0000-0002-9143-7974" },
   ]

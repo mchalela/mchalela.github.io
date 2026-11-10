@@ -1,0 +1,15 @@
+{{- /* Row of tool icons with labels. One "icon|Label" per line; icon is a file in assets/icons/. */ -}}
+<div class="skills-row not-prose">
+  {{- range split (trim .Inner "\n ") "\n" }}
+    {{- $line := trim . " \t" }}
+    {{- if $line }}
+      {{- $parts := split $line "|" }}
+      {{- $icon := trim (index $parts 0) " " }}
+      {{- $label := trim (index $parts 1) " " }}
+      <div class="skill" title="{{ $label }}">
+        <span class="skill-icon">{{ partial "icon.html" $icon }}</span>
+        <span class="skill-label">{{ $label }}</span>
+      </div>
+    {{- end }}
+  {{- end }}
+</div>

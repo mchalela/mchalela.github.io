@@ -1,11 +1,11 @@
 ---
 title: "Scientific software you can trust."
-heroCaption: "Martin Chalela · Research Software Engineer · PhD in Astronomy"
+heroCaption: "Research Software Engineer · PhD in Astronomy"
 heroLead: "I design, build and test scientific software: observatory data pipelines, numerical code, and the test suites and CI that keep them correct. Ten years of Python, from telescope pipelines in production to open-source packages in refereed journals."
 heroButtons:
   - label: "See the software"
     url: "/software/"
-  - label: "Work with me"
+  - label: "Contact"
     url: "/contact/"
     style: "outline"
   - label: "GitHub"
@@ -27,4 +27,21 @@ I am a research software engineer with a PhD in Astronomy. Most recently I devel
 
 I bring a scientist's understanding of the data together with solid engineering practice: testing, CI, documentation and AI-assisted development.
 
-<!-- TODO: add a CV download link once the PDF is in static/ -->
+## Tools
+
+{{< skills >}}
+python|Python
+numpy|NumPy
+scipy|SciPy
+astropy|Astropy
+pytest|pytest
+githubactions|GitHub Actions
+git|Git
+sphinx|Sphinx
+readthedocs|Read the Docs
+fastapi|FastAPI
+svelte|Svelte
+docker|Docker
+jupyter|Jupyter
+linux|Linux
+{{< /skills >}}

@@ -16,7 +16,7 @@ disableImageOptimizationMD = false
 disableTextInHeader = false
 
 defaultFeaturedImage = "/img/featured-default.svg"
-defaultSocialImage = "/img/featured-default.svg"
+defaultSocialImage = "/img/social-card.png"
 hotlinkFeatureImage = false
 thumbnailAspectRatio = "1.5"
 
@@ -38,7 +38,7 @@ fingerprintAlgorithm = "sha512"
 [homepage]
   layout = "landing"
   layoutSwitcher = false
-  homepageImage = "img/hero.svg"
+  homepageImage = "img/hero-startrails.svg"
   showRecent = true
   showRecentItems = 3
   showMoreLink = true
@@ -60,7 +60,7 @@ fingerprintAlgorithm = "sha512"
   showTableOfContents = true
   showTaxonomies = true
   showWordCount = false
-  showComments = true            # renders layouts/partials/comments.html (giscus) under every article
+  showComments = false           # giscus (layouts/partials/comments.html); meant for blog posts, off until the blog is live
   showZenMode = false
 
 [list]

@@ -39,3 +39,38 @@ code, pre, kbd, samp {
   }
 }
 */
+
+/* Article pages that hide the table of contents (showTableOfContents: false):
+   let the title and body use the whole column instead of the 65ch prose width. */
+article:not(:has(.toc)) section.prose > div { max-width: none; width: 100%; }
+article:not(:has(.toc)) #single_header,
+article:not(:has(.toc)) .article-content {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Publications: "first author" marker in the landing page's sun gold. */
+.first-author { color: rgb(var(--color-secondary-600)); font-weight: 600; font-size: 0.9em; }
+.dark .first-author { color: rgb(var(--color-secondary-300)); }
+
+/* Home page tools row (layouts/shortcodes/skills.html). */
+.skills-row {
+  display: flex; flex-wrap: wrap; justify-content: center;
+  gap: 1.25rem 1rem; margin: 1.25rem auto 0; max-width: 46rem;
+}
+.skill {
+  display: flex; flex-direction: column; align-items: center; gap: 0.4rem;
+  width: 5.25rem; font-size: 0.8rem; line-height: 1.1; text-align: center;
+  color: rgb(var(--color-neutral-600));
+}
+.dark .skill { color: rgb(var(--color-neutral-300)); }
+.skill:hover { color: rgb(var(--color-primary-600)); }
+.dark .skill:hover { color: rgb(var(--color-primary-400)); }
+.skill-icon .icon svg { width: 2.25rem; height: 2.25rem; }
+
+/* Header logo (assets/img/logo.svg): lens mark, green arcs and a gold mass, theme-aware. */
+.logo svg .lens-arc { stroke: rgb(var(--color-primary-600)); }
+.logo svg .lens-mass { fill: rgb(var(--color-secondary-500)); }
+.dark .logo svg .lens-arc { stroke: rgb(var(--color-primary-400)); }
+.dark .logo svg .lens-mass { fill: rgb(var(--color-secondary-300)); }
