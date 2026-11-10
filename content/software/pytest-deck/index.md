@@ -4,12 +4,12 @@ summary: "An open-source pytest plugin that serves a browser dashboard for your 
 date: 2026-10-01
 weight: 2
 tags: ["python", "pytest", "fastapi", "svelte", "open source"]
-categories: ["Open source"]
 showHero: true
 heroStyle: "big"
 ---
 
-**Role:** author and lead developer. **Code:** [mchalela/pytest-deck](https://github.com/mchalela/pytest-deck)
+**Role:** author and lead developer.\
+**Code:** [mchalela/pytest-deck](https://github.com/mchalela/pytest-deck)
 
 ## The problem
 
@@ -21,10 +21,13 @@ A pytest plugin that serves an interactive dashboard:
 
 - Collect the suite as a foldable tree and select only the tests you care about.
 - Watch results stream in live, with tracebacks and coverage.
-- Every run is an isolated pytest subprocess, so the dashboard always matches a command-line run and works with the rest of the pytest plugin ecosystem.
+- Every run is an isolated pytest subprocess, so the dashboard always matches a command-line run.
+- Compatible with existing pytest plugins, from public ones such as pytest-cov, pytest-mpl and pytest-benchmark to custom plugins a team maintains in-house.
 
 FastAPI and Server-Sent Events on the back end, Svelte on the front end.
 
+![The dashboard running the examples suite: statuses stream into the test tree, rollup counts fill in on each file, and a failed test is pinned with its traceback in pytest's own colours](dashboard.png "A run in progress: statuses stream into the test tree and a failed test is pinned with its traceback")
+
 ## Outcome
 
-Published on PyPI with CI and documentation. It is the tool I use on every code review contract.
+Published on PyPI with CI and documentation. It is how I get oriented fast in large codebases I did not write.
