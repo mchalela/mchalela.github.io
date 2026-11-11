@@ -23,7 +23,7 @@ heroImage: "img/hero-startrails.svg"
 
 ## About
 
-I am a research software engineer with a PhD in Astronomy. Most recently I developed the data reduction pipeline for MAROON-X, the high-precision radial velocity spectrograph at Gemini Observatory, for the University of Chicago. I lead and contribute to open-source astronomy packages, three of them published in refereed journals. At the National University of Córdoba I taught a postgraduate course on software design for scientists.
+I am a research software engineer with a PhD in Astronomy. Most recently I developed the data reduction pipeline for MAROON-X, the high-precision radial velocity spectrograph at Gemini Observatory, for the University of Chicago. Before that, as a data scientist at IThreex Global, I built and deployed machine learning models with scikit-learn into production, containerised with Docker and shipped with their DevOps team. I lead and contribute to open-source astronomy packages, three of them published in refereed journals. At the National University of Córdoba I taught a postgraduate course on software design for scientists.
 
 I bring a scientist's understanding of the data together with solid engineering practice: testing, CI, documentation and AI-assisted development.
 
@@ -42,6 +42,7 @@ readthedocs|Read the Docs
 fastapi|FastAPI
 svelte|Svelte
 docker|Docker
+scikitlearn|scikit-learn
 jupyter|Jupyter
 linux|Linux
 {{< /skills >}}
