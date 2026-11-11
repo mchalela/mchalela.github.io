@@ -1,8 +1,8 @@
 # Theme options. Reference: https://blowfish.page/docs/configuration/#theme-parameters
 
 colorScheme = "solarpunk"        # custom scheme in assets/css/schemes/solarpunk.css
-defaultAppearance = "light"
-autoSwitchAppearance = true
+defaultAppearance = "dark"
+autoSwitchAppearance = false   # true would follow the visitor's OS setting instead
 
 enableA11y = false
 enableSearch = true
